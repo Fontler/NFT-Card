@@ -78,6 +78,7 @@ body {
 @media (max-width: 500px) {
   .container .card {
     width: 300px;
+    margin-top: 1rem;
   }
 }
 
