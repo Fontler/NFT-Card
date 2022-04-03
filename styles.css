@@ -141,13 +141,13 @@ body {
   text-align: center;
 }
 
-.container .card .text-content h2, .container .card .text-content a {
+.container .card .text-content h1, .container .card .text-content a {
   color: white;
   font-weight: 600;
   padding-bottom: 1rem;
 }
 
-.container .card .text-content h2:hover, .container .card .text-content a:hover {
+.container .card .text-content h1:hover, .container .card .text-content a:hover {
   color: #00fff7;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
