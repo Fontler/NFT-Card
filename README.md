@@ -1,6 +1,9 @@
 # Frontend Mentor - NFT preview card component
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+[Here is my solution on Netflify](https://nftcardalex.netlify.app/)
+
+I used this small project as an opportunity to kickstart learning SASS,
+using variable, nesting and partials in this project.
 
 ## Welcome! 👋
 
