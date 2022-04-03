@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:ital,wght@1,300&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Outfit", san-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style: none;
+}
+
+body {
+  background-color: #0d192b;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card {
+  width: 375px;
+  background-color: #14253d;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.container .card .image-container {
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.container .card .image-container img {
+  border-radius: 1rem;
+}
+
+.container .card .image-container:hover .overlay {
+  opacity: 0.5;
+}
+
+.container .card .image-container:hover .icon-eye {
+  opacity: 1;
+}
+
+.container .card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 321px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #00fff7;
+  border-radius: 1rem;
+}
+
+.container .card .icon-eye {
+  color: white;
+  opacity: 0;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container .card .text-content h2, .container .card .text-content a {
+  color: white;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.container .card .text-content h2:hover, .container .card .text-content a:hover {
+  color: #00fff7;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.container .card .text-content p {
+  color: #8ea1bf;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.container .card ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #2f415b;
+}
+
+.container .card ul .eth {
+  color: #00fff7;
+  font-weight: 400;
+}
+
+.container .card ul .eth::before {
+  content: url(images/icon-ethereum.svg);
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.container .card ul .days {
+  color: #8ea1bf;
+  font-weight: 400;
+}
+
+.container .card ul .days::before {
+  content: url(images/icon-clock.svg);
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.container .card .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8ea1bf;
+}
+
+.container .card .author img {
+  height: 2.2rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.container .card .author a {
+  color: white;
+}
+
+.container .card .author a:hover {
+  color: #00fff7;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.container .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #8ea1bf;
+}
+
+.container .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
