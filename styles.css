@@ -67,6 +67,12 @@ body {
           flex-direction: column;
 }
 
+@media (max-width: 500px) {
+  .container {
+    margin-top: 1rem;
+  }
+}
+
 .container .card {
   width: 375px;
   background-color: #14253d;
@@ -78,7 +84,7 @@ body {
 @media (max-width: 500px) {
   .container .card {
     width: 300px;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 }
 
