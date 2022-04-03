@@ -112,11 +112,17 @@ body {
   left: 0;
   right: 0;
   opacity: 0;
-  height: 321px;
   -webkit-transition: .5s ease;
   transition: .5s ease;
   background-color: #00fff7;
   border-radius: 1rem;
+  height: 321px;
+}
+
+@media (max-width: 500px) {
+  .container .card .overlay {
+    height: 245px;
+  }
 }
 
 .container .card .icon-eye {
@@ -226,6 +232,7 @@ body {
   font-size: 11px;
   text-align: center;
   color: #8ea1bf;
+  margin-bottom: 2rem;
 }
 
 .container .attribution a {
